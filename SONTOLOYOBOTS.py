@@ -11,7 +11,7 @@ from googletrans import Translator
 import youtube_dl
 #TEGUH S- BOTS LINE
 #=============
-cl = LineClient("stya535@gmail.com","putriku75")
+cl = LineClient("stya5475@gmail.com","putriku75")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -20,7 +20,7 @@ lineSettings = cl.getSettings()
 mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
-ki = LineClient("citocitolani@yahoo.com","putriku75")
+ki = LineClient("citotolani@yahoo.com","putriku75")
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -29,7 +29,7 @@ lineSettings = ki.getSettings()
 Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
-kk = LineClient("manispipit@yahoo.com","putriku75")
+kk = LineClient("manizspipit@yahoo.com","putriku75")
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -38,7 +38,7 @@ lineSettings = kk.getSettings()
 Bmid = ki.getProfile().mid
 responsename3 = ki.getProfile().displayName
 
-kc = LineClient("puputmulani@yahoo.com","putriku75")
+kc = LineClient("puputimulani@yahoo.com","putriku75")
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
